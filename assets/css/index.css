@@ -1,14 +1,9 @@
-body {
-  width: 100%;
-  margin: auto;
-  font-family: 'PT Sans', sans-serif;
-  text-align: center;
-  background-color: grey;
-}
 #page{
   max-width: 900px;
+  width: auto;
   margin: auto;
   background-color: white;
+  text-align: center;
 }
 nav{
   color: #000000;
@@ -22,26 +17,44 @@ nav h1{
   font-size: 1.5em
   color: #323232;
   margin: .75em;
-  flex: 2;
+  flex: 4;
+  text-align: left;
+  flex-basis: auto;
   justify-content: flex-start;
 }
 nav h3{
+  font-size: .75em
+  color: #323232;
+  margin: 1.25em;
+}
+#nav2{
   flex: 1;
-  justify-content: flex-end;
+  flex-basis: auto;
+  text-align: right;
+}
+#nav3{
+  flex: 1;
+  flex-basis: auto;
+  text-align: right;
 }
 #main_photo img{
   width: 100%;
+}
+.main_section1{
+    width:auto;
 }
 .main_section1 h1{
   padding-top: 80px;
   font-weight: bold;
   font-size: 1.875em;
   color: #323232;
+
 }
 .main_section1 h3{
   padding-top: 45px;
 }
 .content_box1{
+  max-width: 100%;
   text-align: center;
   display:inline-block;
   vertical-align: top;
@@ -89,6 +102,7 @@ nav h3{
   margin-top: 80px;
 }
 .content_box2{
+  max-width: 100%;
   text-align: center;
   display:inline-block;
   vertical-align: top;
@@ -125,9 +139,24 @@ footer h1{
   padding-top: 50px;
 }
 /* On devices wider than 660px */
-@media(min-width: 660px) {
+@media(max-width: 400px) {
+  body {
+    max-width: 400px;
+    width: auto;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+  }
 }
 
 /* On devices wider than 940px */
 @media(min-width: 940px) {
+  body {
+    max-width: 1080px;
+    width: 100%;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    background-color: grey;
+  }
 }
