@@ -1,5 +1,5 @@
 #page{
-  max-width: 900px;
+  max-width: 1000px;
   width: auto;
   margin: auto;
   background-color: white;
@@ -103,10 +103,11 @@ height: 80px;
   text-align: left;
   display:inline-block;
   vertical-align: top;
-  max-width: 210px;
+  max-width: 250px;
   width: 100%;
   margin: 60px;
   padding: 30px;
+  height: 210px;
   background-color: #ffffff;
 }
 .content_box2 h2{
