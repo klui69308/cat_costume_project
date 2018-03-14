@@ -1,3 +1,13 @@
+/*
+  Overall
+  - Good understanding of media queries!
+  - Generally well organized with naming, but 
+  - There is an opporunity to consolidate CSS properties
+  - Make sure to match the mockup closely
+    -- it would be better to let the page width be 100%
+    -- fonts are a little off
+*/
+
 #page{
   max-width: 1000px;
   width: auto;
@@ -58,7 +68,7 @@ nav h3{
   max-width: 250px;
   width: 100%;
   height: 300px;
-  margin: 60px;
+  margin: 60px; /* Width is large compared to mockup */
   padding: 30px;
   background-color: #eeeeee;
 }
@@ -79,6 +89,10 @@ nav h3{
   margin-top: 80px;
   margin-bottom: 80px;
 }
+/*
+  Consider using a class in stead of IDs for the cats!
+  Also, let's discuss the border-radius here
+*/
 #cat1{
   padding-right: 55px;
   border-radius: 50%
